@@ -1,0 +1,85 @@
+<!-- Check the HTML settings. We load the TypeKit fonts there -->
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript">
+  +function(a,p,P,b,y){a.appboy={};a.appboyQueue=[];for(var s="DeviceProperties Card Card.prototype.dismissCard Card.prototype.removeAllSubscriptions Card.prototype.removeSubscription Card.prototype.subscribeToClickedEvent Card.prototype.subscribeToDismissedEvent Banner CaptionedImage ClassicCard ControlCard ContentCards ContentCards.prototype.getUnviewedCardCount Feed Feed.prototype.getUnreadCardCount ControlMessage InAppMessage InAppMessage.SlideFrom InAppMessage.ClickAction InAppMessage.DismissType InAppMessage.OpenTarget InAppMessage.ImageStyle InAppMessage.Orientation InAppMessage.TextAlignment InAppMessage.CropType InAppMessage.prototype.closeMessage InAppMessage.prototype.removeAllSubscriptions InAppMessage.prototype.removeSubscription InAppMessage.prototype.subscribeToClickedEvent InAppMessage.prototype.subscribeToDismissedEvent FullScreenMessage ModalMessage HtmlMessage SlideUpMessage User User.Genders User.NotificationSubscriptionTypes User.prototype.addAlias User.prototype.addToCustomAttributeArray User.prototype.getUserId User.prototype.incrementCustomUserAttribute User.prototype.removeFromCustomAttributeArray User.prototype.setAvatarImageUrl User.prototype.setCountry User.prototype.setCustomLocationAttribute User.prototype.setCustomUserAttribute User.prototype.setDateOfBirth User.prototype.setEmail User.prototype.setEmailNotificationSubscriptionType User.prototype.setFirstName User.prototype.setGender User.prototype.setHomeCity User.prototype.setLanguage User.prototype.setLastKnownLocation User.prototype.setLastName User.prototype.setPhoneNumber User.prototype.setPushNotificationSubscriptionType InAppMessageButton InAppMessageButton.prototype.removeAllSubscriptions InAppMessageButton.prototype.removeSubscription InAppMessageButton.prototype.subscribeToClickedEvent display display.automaticallyShowNewInAppMessages display.destroyFeed display.hideContentCards display.showContentCards display.showFeed display.showInAppMessage display.toggleContentCards display.toggleFeed changeUser destroy getDeviceId initialize isPushBlocked isPushGranted isPushPermissionGranted isPushSupported logCardClick logCardDismissal logCardImpressions logContentCardsDisplayed logCustomEvent logFeedDisplayed logInAppMessageButtonClick logInAppMessageClick logInAppMessageHtmlClick logInAppMessageImpression logPurchase openSession registerAppboyPushMessages removeAllSubscriptions removeSubscription requestContentCardsRefresh requestFeedRefresh requestImmediateDataFlush resumeWebTracking setLogger stopWebTracking subscribeToContentCardsUpdates subscribeToFeedUpdates subscribeToInAppMessage subscribeToNewInAppMessages toggleAppboyLogging trackLocation unregisterAppboyPushMessages wipeData".split(" "),i=0;i<s.length;i++){for(var m=s[i],k=a.appboy,l=m.split("."),j=0;j<l.length-1;j++)k=k[l[j]];k[l[j]]=(new Function("return function "+m.replace(/\./g,"_")+"(){window.appboyQueue.push(arguments); return true}"))()}window.appboy.getCachedContentCards=function(){return new window.appboy.ContentCards};window.appboy.getCachedFeed=function(){return new window.appboy.Feed};window.appboy.getUser=function(){return new window.appboy.User};(y=p.createElement(P)).type='text/javascript';
+    y.src='https://js.appboycdn.com/web-sdk/3.2/appboy.min.js';
+    y.async=1;(b=p.getElementsByTagName(P)[0]).parentNode.insertBefore(y,b)
+  }(window,document,'script');
+
+
+  // initialize the SDK
+appboy.initialize('96ab31f1-25c4-4752-8855-bf1557f50559', {
+    baseUrl: "sdk.sondheim.braze.com"
+});
+
+// optionally show all In-App Messages without custom handling
+appboy.display.automaticallyShowNewInAppMessages();
+
+// optionally set the current user's External ID
+// if (isLoggedIn){
+//     appboy.changeUser(userIdentifier);
+// }
+
+// start (or continue) a session
+appboy.openSession();
+</script>
+  <link rel="stylesheet" href="jon_web_sdk.css">
+
+  </head>
+
+<section class="main-body">
+  <header>
+    <div class="logo-wrap">
+    <img src="http://res.cloudinary.com/bwt/image/upload/v1500839004/tech-geek-logo_efshzg.jpg" alt="Tech Geek" class="logo"> Tech Geek</div>
+    <nav class="mobile-nav">
+      <svg width="20" height="13" viewBox="0 0 20 13" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1 1C.724 1 .5.776.5.5S.724 0 1 0h18c.276 0 .5.224.5.5s-.224.5-.5.5H1zm0 6c-.276 0-.5-.224-.5-.5S.724 6 1 6h18c.276 0 .5.224.5.5s-.224.5-.5.5H1zm0 6c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h18c.276 0 .5.224.5.5s-.224.5-.5.5H1z" fill-rule="nonzero"/>
+</svg><a href="#">Menu</a>
+    </nav>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Web design</a></li>
+        <li><a href="#">VR & Gaming</a></li>
+      </ul>
+    </nav>
+  </header>
+<article>
+  <h1>SpaceX successfully launches reused Dragon spacecraft for ISS resupply</h1>
+  <p class="post-meta">June 11, 2017 by Joshua Gunn—<a href="#">Technology</a>, <a href="#"><span class="allsmallcaps">ISS</span></a>, <a href="#">Universe</a>.</p>
+  <p>SpaceX’s <span class="allsmallcaps">CRS-11</span> launch on Saturday was a success, bringing a Dragon spacecraft loaded down with nearly 6,000 lbs of supplies and research equipment on board to orbit. The twist was that SpaceX already sent this Dragon capsule up to resupply the International Space Station once before—back in September 2014, when it carried cargo to the <span class="allsmallcaps">ISS</span> prior to being recovered and refurbished post-mission.</p>
+  <blockquote class="big-quote">
+    &ldquo;SpaceX is working on Dragon 2, a capsule designed to bring crew to and from the <span class="allsmallcaps">ISS</span>&rdquo;.
+  </blockquote>
+  <p>The successful relaunch of a recycled Dragon is another historic milestone for SpaceX, which is aiming to reuse various parts of its launch and spacecraft equipment in order to help lower the cost of getting stuff to space. This is key to its aim of making launching a lucrative and profitable business, and also to it achieving its goal of flying missions, including crewed operations, to Mars.</p>
+  <h2>The goal of the mission</h2>
+  <p>After SpaceX’s Falcon 9 (not a reused one, this time) delivered the Dragon to orbit, it decoupled from the craft about 10 minutes after the original liftoff, and then deployed its solar wings to harvest energy for the rest of its trip to the <span class="allsmallcaps">ISS</span>.</p>
+  <img src="http://res.cloudinary.com/bwt/image/upload/v1500836264/iss_u5gjli.jpg" alt="ISS">
+  <p>The Dragon will attempt to dock with the <span class="allsmallcaps">ISS</span> around 36 hours from launch, when space station crew will attempt to capture the craft using the facility’s 57.7-foot Canadian-made robotic arm. If this Dragon completes the rest of its mission as planned, it’ll be recovered, refurbished and hopefully reused in a future mission.</p>
+  <p>SpaceX is working on Dragon 2, a capsule designed to bring crew to and from the <span class="allsmallcaps">ISS</span>, and hopes to run test flights with astronauts on board beginning next year.</p>
+</article>
+<small>Content adapted from Tech Crunch (<a href="https://techcrunch.com/2017/06/03/spacex-successfully-launches-reused-dragon-spacecraft-for-iss-resupply/">Source</a>)</small>
+  </section>
+<aside class="sidebar">
+  <a href="#" class="twitter-link">@techGeek</a>
+  <h1>Popular posts</h1>
+  <ul>
+    <li><a href="#">Study suggests last-mile drone delivery could lower carbon footprint</a>
+      <p><em>2 days ago</em></p>
+    </li>
+    <li><a href="#">How to price your IPO</a>
+      <p><em>3 days ago</em></p>
+    </li>
+    <li><a href="#">Here are some reasons behind tech’s design shortage</a>
+      <p><em>5 days ago</em></p>
+    </li>
+    <li><a href="#">Here are some reasons behind tech’s design shortage</a>
+      <p><em>6 days ago</em></p>
+    </li>
+  </ul>
+  <img src="http://res.cloudinary.com/bwt/image/upload/v1500835373/ad_gfyhbx.jpg" class="carbon">
+</aside>
+</html>
